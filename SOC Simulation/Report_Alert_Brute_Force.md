@@ -32,7 +32,7 @@ L'attaccante ha dimostrato un'alta velocità di esecuzione, tipica di strumenti 
 # 4 Identificazione dei Target dell'attacco
 Identificazione degli account e degli asset target del tentativo di Brute Force.
 - **Query:**
-> `source="splunk_cybersecurity_lab_dataset.csv" host="DESKTOP-8CAJRTO" index="macchina_locale" sourcetype="csv" src_ip IN ("198.51.100.45", "203.0.113.12") | stats count by user, status
+> `source="splunk_cybersecurity_lab_dataset.csv" host="DESKTOP-8CAJRTO" index="macchina_locale" sourcetype="csv" src_ip IN ("198.51.100.45", "203.0.113.12") | stats count by user, status`
 - **Risposta:**
 	- IP 198.51.100.45: Target **administrator** (Brute Force mirato)
 	- IP 203.0.113.12: Diversi target (Password Spraying)
