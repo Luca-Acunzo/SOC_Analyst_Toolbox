@@ -15,7 +15,7 @@ Tramite query mirata sono stati individuati due vettori di attacco distinti prov
 - **Query:** 
 > `source="splunk_cybersecurity_lab_dataset.csv" host="DESKTOP-8CAJRTO" index="macchina_locale" sourcetype="csv" status="failure" | stats count by src_ip | sort - count | head 5`
 - **Risultato:** 
-![[IMG1.png]]![[IMG2.png|109]]
+![](IMG1.png)!![](IMG2.png)
 - **Vettori di attacco:**
 	- **198.51.100.45:** 2499 tentativi di login falliti.
 	- **203.0.113.12:** 1200 tentativi di login falliti.
@@ -24,8 +24,8 @@ Tramite query mirata sono stati individuati due vettori di attacco distinti prov
 L'attaccante ha dimostrato un'alta velocità di esecuzione, tipica di strumenti automatizzati.
 - **Query:**
 > `source="splunk_cybersecurity_lab_dataset.csv" host="DESKTOP-8CAJRTO" index="macchina_locale" sourcetype="csv" src_ip IN ("198.51.100.45", "203.0.113.12") | timechart span=5m count by status`
-- **Risultato: **![[IMG4.png]]
-![[IMG3.png]]
+- **Risultato: **![](IMG4.png)
+![](IMG3.png)
 - **Analisi:**
 	- **Finestra temporale IP 198.51.100.45:** Dalle 10:00 alle 10:15 (2499 tentativi falliti).
 	- **Finestra temporale IP 203.0.113.12:** Dalle 12:00 alle 13:00 (1200 tentativi falliti).
