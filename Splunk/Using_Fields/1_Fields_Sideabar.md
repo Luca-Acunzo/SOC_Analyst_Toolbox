@@ -5,4 +5,4 @@ They are default fields of the utmost importance.
 - The "#" denotes a **numeral**.
 - Clicking on a field, you will see a list of **values** for the field
 
- ![[Field_Sidebar.png]]
+ ![Field_Sidebar.png](../Images/Field_Sidebar.png)

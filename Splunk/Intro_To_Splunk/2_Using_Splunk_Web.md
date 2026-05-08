@@ -7,4 +7,4 @@ Default interface for **searching** and **analyzing** data.
 - **Sources**: The file or directory path, network port or script from which the event originated
 - **Sourcetypes**: Classification of your data
 
-![Home|697](Splunk_home.png)
+![](Images/Splunk_home.png)

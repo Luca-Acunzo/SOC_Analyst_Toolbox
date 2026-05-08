@@ -1,4 +1,4 @@
-![[Splunk_Command.png]]
+![](Images\Splunk_Command.png)
 - **First**: Search Terms.
 - **Pipe |**: To tell Splunk to pass the current results on to the next component.
 # Best Practices

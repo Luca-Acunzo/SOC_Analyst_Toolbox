@@ -1,7 +1,7 @@
 # Search Job (Processo)
 In the the search bar you type **failed** and set the **time range.**
 
-![failed][Splunk_Failed.png]
+![failed](Images/Splunk_Failed.png)
 
 #### Visualization (visualizzazione)
 Creating statistics and visualizations are called transforming commands.
